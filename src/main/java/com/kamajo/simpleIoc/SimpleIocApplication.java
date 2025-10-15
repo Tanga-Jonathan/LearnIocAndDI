@@ -8,6 +8,8 @@ public class SimpleIocApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SimpleIocApplication.class, args);
-	}
+        System.out.println("HelloWorld, from spring boot");
+
+    }
 
 }
